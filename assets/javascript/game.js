@@ -6,7 +6,7 @@ document.onkeyup = function(event) {
 
 	var randNumber = Math.floor(Math.random() * words.length);
 
-	var guessesRemaining = 10;
+	var guessesRemaining = 5;
 
 	//store word selection as variable
 	var wordSelection = words[randNumber];
@@ -27,13 +27,14 @@ document.onkeyup = function(event) {
 	}
 	
 
-	//loop over every letter in word and check is userChoice matches
+	//loop over every letter in word and check if userChoice matches
 	//if it does, insert letter into corresponding <li> item
 	//if it doesn't, guesses remaining --
 	pickLetter = function() {
 		for (i=0;i<wordSelection.length;i++) {
 			if (wordSelection.indexOf(userChoice) !== -1) {
-
+			//
+			//display hangman images
 
 
 
@@ -42,15 +43,17 @@ document.onkeyup = function(event) {
 	}
 	
 	//display letters already guessed
-	
 
+	lettersGuessed = function() {
 
-	//display hangman images
+		
+	}
+
 	
 
 	//automatically choose another word after win/loss
 
-	//Schwifty solution
+renderWordHint();
 
 
 	

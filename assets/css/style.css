@@ -9,6 +9,7 @@
 ul#letterSpace li {
 	display: inline;
 	list-style-type: none;
+	align-content: center;
 }
 body {
 	background-image: url("../images/background.png")
@@ -16,4 +17,10 @@ body {
 
 div h1 {
 	font-weight: 700;
+}
+
+h1#pressAny {
+
+	font-size: 175%;
+	padding-bottom: 50px;
 }
