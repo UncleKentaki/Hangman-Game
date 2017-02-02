@@ -1,0 +1,19 @@
+* {
+	font:helvetica;
+	text-align: center;
+	color:#fff;
+	
+
+}
+
+ul#letterSpace li {
+	display: inline;
+	list-style-type: none;
+}
+body {
+	background-image: url("../images/background.png")
+}
+
+div h1 {
+	font-weight: 700;
+}

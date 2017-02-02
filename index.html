@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lan="eng-us">
-	<head>
-		<meta charset="UTF-8">
-		<link type="text/css" src=>
-		<title>Birdman</title>
-		<script src="assets/javascript/game.js"</script>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Birdperson</title>
+	<script src="assets/javascript/game.js"></script>
+</head>
 <body>
-	<div class="container" id="mainContainer">
+	<div class="container" id="headerContainer">
 		<header class="row">
-			<div class="col-md-12">
+			<div class="col-md-2">
+				<img src="assets/images/morty.png" alt="morty">
+			</div>
+			<div class="col-md-8">
 				<img src="assets/images/hangman-logo.png" alt="Hangman Logo">
+			</div>
+			<div class="col-md-2">
+				<img src="assets/images/rick.png" alt="rick">
 			</div>
 		</header>
 	</div>
+	<div class="container" id="mainContentContainer">
+		<div class="row">
+			
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h1 id="pressAny">PRESS ANY KEY TO GET STARTED</h1>
+				<h1 id="wins">WINS</h1>
+				<h1 id="winsSpace"></h1>
+				<h1 id="currentWord">CURRENT WORD</h1>
+				<ul id = "letterSpace">
+					
+				</ul>
+				<h1 id="lettersGuessed">LETTERS GUESSED</h1>
+				<h1 id="lettersGuessedSpace"></h1>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
